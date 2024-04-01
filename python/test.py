@@ -6,5 +6,5 @@ connected = lidar.connect(1)
 if connected < -1:
   print("Not Connected")
 
-print(lidar.getDistance())
-print(lidar.getVelocity())
+print(float(lidar.getDistance()))
+print(float(lidar.getVelocity()))
