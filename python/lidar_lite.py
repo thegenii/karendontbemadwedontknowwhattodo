@@ -3,7 +3,7 @@ import time
 
 class Lidar_Lite():
   def __init__(self):
-    self.address = 2x62
+    self.address = 0x62
     self.distWriteReg = 0x00
     self.distWriteVal = 0x04
     self.distReadReg1 = 0x8f
